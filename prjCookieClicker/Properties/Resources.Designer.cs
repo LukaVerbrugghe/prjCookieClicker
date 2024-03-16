@@ -93,6 +93,26 @@ namespace prjCookieClicker.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap CPS {
+            get {
+                object obj = ResourceManager.GetObject("CPS", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kippenhek {
+            get {
+                object obj = ResourceManager.GetObject("kippenhek", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Kippenvoer {
             get {
                 object obj = ResourceManager.GetObject("Kippenvoer", resourceCulture);
@@ -116,6 +136,36 @@ namespace prjCookieClicker.Properties {
         internal static System.Drawing.Bitmap nolife {
             get {
                 object obj = ResourceManager.GetObject("nolife", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap paasei {
+            get {
+                object obj = ResourceManager.GetObject("paasei", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap placeholderjpeg {
+            get {
+                object obj = ResourceManager.GetObject("placeholderjpeg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap secrept {
+            get {
+                object obj = ResourceManager.GetObject("secrept", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
