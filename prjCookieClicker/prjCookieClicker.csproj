@@ -89,5 +89,14 @@
   <ItemGroup>
     <None Include="Resources\Kippenvoer.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nolife.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lazy.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

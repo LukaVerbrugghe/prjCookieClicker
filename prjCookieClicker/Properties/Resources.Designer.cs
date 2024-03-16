@@ -63,6 +63,16 @@ namespace prjCookieClicker.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _lock {
+            get {
+                object obj = ResourceManager.GetObject("lock", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap child {
             get {
                 object obj = ResourceManager.GetObject("child", resourceCulture);
@@ -86,6 +96,26 @@ namespace prjCookieClicker.Properties {
         internal static System.Drawing.Bitmap Kippenvoer {
             get {
                 object obj = ResourceManager.GetObject("Kippenvoer", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap lazy {
+            get {
+                object obj = ResourceManager.GetObject("lazy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap nolife {
+            get {
+                object obj = ResourceManager.GetObject("nolife", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
