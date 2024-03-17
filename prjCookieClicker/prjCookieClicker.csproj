@@ -140,5 +140,20 @@
   <ItemGroup>
     <None Include="Resources\kippenhek.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kippenhok.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kippenpoortje.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hormoon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\upgrade.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money-with-wings.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

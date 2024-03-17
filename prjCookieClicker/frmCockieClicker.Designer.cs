@@ -31,34 +31,61 @@
             this.components = new System.ComponentModel.Container();
             this.lblAantalKinderen = new System.Windows.Forms.Label();
             this.grbUpgrades = new System.Windows.Forms.GroupBox();
+            this.lblUpgrade6HormonenExtraKinderenPerSeconde = new System.Windows.Forms.Label();
+            this.lblUpgrade5ElektrischKippenpoortjeExtraKinderenPerSeconde = new System.Windows.Forms.Label();
+            this.lblUpgrade4VerwarmdKippenhokExtraKinderenPerSeconde = new System.Windows.Forms.Label();
+            this.lblUpgrade3KippenhekExtraKinderenPerSeconde = new System.Windows.Forms.Label();
+            this.lblUpgrade2EastereegExtraKinderenPerSeconde = new System.Windows.Forms.Label();
+            this.lblUpgrade1VerdundKippenvoerKinderenPerSeconde = new System.Windows.Forms.Label();
+            this.lblUpgrade6HormonenPrijs = new System.Windows.Forms.Label();
+            this.lblUpgrade5ElektrischKippenpoortjePrijs = new System.Windows.Forms.Label();
+            this.lblUpgrade4VerwarmdKippenhokPrijs = new System.Windows.Forms.Label();
+            this.lblUpgrade3KippenhekPrijs = new System.Windows.Forms.Label();
+            this.lblUpgrade2EastereggPrijs = new System.Windows.Forms.Label();
             this.lblUpgrade1VerdundKippenvoerPrijs = new System.Windows.Forms.Label();
+            this.lblUpgrade6Hormonen = new System.Windows.Forms.Label();
+            this.lblUpgrade5ElektrischKippenpoortje = new System.Windows.Forms.Label();
+            this.lblUpgrade4VerwarmdKippenhok = new System.Windows.Forms.Label();
+            this.lblUpgrade3Kippenhek = new System.Windows.Forms.Label();
+            this.lblUpgrade2Easteregg = new System.Windows.Forms.Label();
             this.lblUpgrade1VerdundKippenvoer = new System.Windows.Forms.Label();
             this.btnHelp = new System.Windows.Forms.Button();
             this.lblKinderenPerSeconde = new System.Windows.Forms.Label();
             this.tmrExtraKinderen = new System.Windows.Forms.Timer(this.components);
             this.grbStats = new System.Windows.Forms.GroupBox();
+            this.lblMaxCPS = new System.Windows.Forms.Label();
+            this.lblCPS = new System.Windows.Forms.Label();
             this.lblTotaalAutomatischGeproduceerd = new System.Windows.Forms.Label();
             this.lblTotaalAantalKliks = new System.Windows.Forms.Label();
             this.grbAdvancements = new System.Windows.Forms.GroupBox();
             this.tmrAnimatie = new System.Windows.Forms.Timer(this.components);
-            this.lblCPS = new System.Windows.Forms.Label();
             this.tmrCPS = new System.Windows.Forms.Timer(this.components);
-            this.lblUpgrade1VerdundKippenvoerKinderenPerSeconde = new System.Windows.Forms.Label();
-            this.lblUpgrade2Easteregg = new System.Windows.Forms.Label();
-            this.lblUpgrade2EastereggPrijs = new System.Windows.Forms.Label();
-            this.lblUpgrade2EastereegExtraKinderenPerSeconde = new System.Windows.Forms.Label();
-            this.lblUpgrade3Kippenhek = new System.Windows.Forms.Label();
-            this.lblUpgrade3KippenhekPrijs = new System.Windows.Forms.Label();
-            this.lblUpgrade3KippenhekExtraKinderenPerSeconde = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
+            this.grbBoerderij = new System.Windows.Forms.GroupBox();
+            this.lblVerdundKippenvoer = new System.Windows.Forms.Label();
+            this.lblEasteregg = new System.Windows.Forms.Label();
+            this.lblKippenhek = new System.Windows.Forms.Label();
+            this.lblVerwarmdKippenhok = new System.Windows.Forms.Label();
+            this.lblElektrischKippenpoortje = new System.Windows.Forms.Label();
+            this.lblHormonen = new System.Windows.Forms.Label();
+            this.lblUpgrade1Aantal = new System.Windows.Forms.Label();
+            this.lblUpgrade2Aantal = new System.Windows.Forms.Label();
+            this.lblUpgrade3Aantal = new System.Windows.Forms.Label();
+            this.lblUpgrade4Aantal = new System.Windows.Forms.Label();
+            this.lblUpgrade5Aantal = new System.Windows.Forms.Label();
+            this.lblUpgrade6Aantal = new System.Windows.Forms.Label();
+            this.lblUpgrade1Procent = new System.Windows.Forms.Label();
+            this.lblUpgrade2Procent = new System.Windows.Forms.Label();
+            this.lblUpgrade3Procent = new System.Windows.Forms.Label();
+            this.lblUpgrade4Procent = new System.Windows.Forms.Label();
+            this.lblUpgrade5Procent = new System.Windows.Forms.Label();
+            this.lblUpgrade6Procent = new System.Windows.Forms.Label();
+            this.lblCopyright = new System.Windows.Forms.Label();
+            this.lblUpgrade1KinderenPerSeconde = new System.Windows.Forms.Label();
+            this.lblUpgrade2KinderenPerSeconde = new System.Windows.Forms.Label();
+            this.lblUpgrade3KinderenPerSeconde = new System.Windows.Forms.Label();
+            this.lblUpgrade4KinderenPerSeconde = new System.Windows.Forms.Label();
+            this.lblUpgrade5KinderenPerSeconde = new System.Windows.Forms.Label();
+            this.lblUpgrade6KinderenPerSeconde = new System.Windows.Forms.Label();
             this.picAdvancement16 = new System.Windows.Forms.PictureBox();
             this.picAdvancement15 = new System.Windows.Forms.PictureBox();
             this.picAdvancement8 = new System.Windows.Forms.PictureBox();
@@ -75,18 +102,18 @@
             this.picAdvancement9 = new System.Windows.Forms.PictureBox();
             this.picAdvancement2 = new System.Windows.Forms.PictureBox();
             this.picAdvancement1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.picUpgrade6Hormonen = new System.Windows.Forms.PictureBox();
+            this.picUpgrade5ElektrischKippenpoortje = new System.Windows.Forms.PictureBox();
+            this.picUpgrade4VerwarmdKippenhok = new System.Windows.Forms.PictureBox();
             this.picUpgrade3Kippenhek = new System.Windows.Forms.PictureBox();
             this.picUpgrade2Easteregg = new System.Windows.Forms.PictureBox();
             this.picUpgrade1VerdundKippenvoer = new System.Windows.Forms.PictureBox();
             this.picKind = new System.Windows.Forms.PictureBox();
             this.picCock = new System.Windows.Forms.PictureBox();
-            this.lblMaxCPS = new System.Windows.Forms.Label();
             this.grbUpgrades.SuspendLayout();
             this.grbStats.SuspendLayout();
             this.grbAdvancements.SuspendLayout();
+            this.grbBoerderij.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picAdvancement16)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picAdvancement15)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picAdvancement8)).BeginInit();
@@ -103,9 +130,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.picAdvancement9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picAdvancement2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picAdvancement1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picUpgrade6Hormonen)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picUpgrade5ElektrischKippenpoortje)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picUpgrade4VerwarmdKippenhok)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picUpgrade3Kippenhek)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picUpgrade2Easteregg)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picUpgrade1VerdundKippenvoer)).BeginInit();
@@ -116,60 +143,220 @@
             // lblAantalKinderen
             // 
             this.lblAantalKinderen.AutoSize = true;
-            this.lblAantalKinderen.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAantalKinderen.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAantalKinderen.Location = new System.Drawing.Point(54, 19);
             this.lblAantalKinderen.Name = "lblAantalKinderen";
-            this.lblAantalKinderen.Size = new System.Drawing.Size(162, 24);
+            this.lblAantalKinderen.Size = new System.Drawing.Size(223, 18);
             this.lblAantalKinderen.TabIndex = 2;
-            this.lblAantalKinderen.Text = "Aantal kinderen:";
+            this.lblAantalKinderen.Text = "Aantal kinderen: 0000000000";
             // 
             // grbUpgrades
             // 
-            this.grbUpgrades.Controls.Add(this.label12);
-            this.grbUpgrades.Controls.Add(this.label9);
-            this.grbUpgrades.Controls.Add(this.label6);
+            this.grbUpgrades.Controls.Add(this.lblUpgrade6HormonenExtraKinderenPerSeconde);
+            this.grbUpgrades.Controls.Add(this.lblUpgrade5ElektrischKippenpoortjeExtraKinderenPerSeconde);
+            this.grbUpgrades.Controls.Add(this.lblUpgrade4VerwarmdKippenhokExtraKinderenPerSeconde);
             this.grbUpgrades.Controls.Add(this.lblUpgrade3KippenhekExtraKinderenPerSeconde);
             this.grbUpgrades.Controls.Add(this.lblUpgrade2EastereegExtraKinderenPerSeconde);
             this.grbUpgrades.Controls.Add(this.lblUpgrade1VerdundKippenvoerKinderenPerSeconde);
-            this.grbUpgrades.Controls.Add(this.label11);
-            this.grbUpgrades.Controls.Add(this.label8);
-            this.grbUpgrades.Controls.Add(this.label5);
+            this.grbUpgrades.Controls.Add(this.lblUpgrade6HormonenPrijs);
+            this.grbUpgrades.Controls.Add(this.lblUpgrade5ElektrischKippenpoortjePrijs);
+            this.grbUpgrades.Controls.Add(this.lblUpgrade4VerwarmdKippenhokPrijs);
             this.grbUpgrades.Controls.Add(this.lblUpgrade3KippenhekPrijs);
             this.grbUpgrades.Controls.Add(this.lblUpgrade2EastereggPrijs);
             this.grbUpgrades.Controls.Add(this.lblUpgrade1VerdundKippenvoerPrijs);
-            this.grbUpgrades.Controls.Add(this.pictureBox4);
-            this.grbUpgrades.Controls.Add(this.pictureBox3);
-            this.grbUpgrades.Controls.Add(this.label10);
-            this.grbUpgrades.Controls.Add(this.pictureBox2);
-            this.grbUpgrades.Controls.Add(this.label7);
+            this.grbUpgrades.Controls.Add(this.picUpgrade6Hormonen);
+            this.grbUpgrades.Controls.Add(this.picUpgrade5ElektrischKippenpoortje);
+            this.grbUpgrades.Controls.Add(this.lblUpgrade6Hormonen);
+            this.grbUpgrades.Controls.Add(this.picUpgrade4VerwarmdKippenhok);
+            this.grbUpgrades.Controls.Add(this.lblUpgrade5ElektrischKippenpoortje);
             this.grbUpgrades.Controls.Add(this.picUpgrade3Kippenhek);
-            this.grbUpgrades.Controls.Add(this.label4);
+            this.grbUpgrades.Controls.Add(this.lblUpgrade4VerwarmdKippenhok);
             this.grbUpgrades.Controls.Add(this.picUpgrade2Easteregg);
             this.grbUpgrades.Controls.Add(this.lblUpgrade3Kippenhek);
             this.grbUpgrades.Controls.Add(this.picUpgrade1VerdundKippenvoer);
             this.grbUpgrades.Controls.Add(this.lblUpgrade2Easteregg);
             this.grbUpgrades.Controls.Add(this.lblUpgrade1VerdundKippenvoer);
-            this.grbUpgrades.Location = new System.Drawing.Point(575, 19);
+            this.grbUpgrades.Location = new System.Drawing.Point(575, 12);
             this.grbUpgrades.Name = "grbUpgrades";
-            this.grbUpgrades.Size = new System.Drawing.Size(221, 394);
+            this.grbUpgrades.Size = new System.Drawing.Size(221, 401);
             this.grbUpgrades.TabIndex = 3;
             this.grbUpgrades.TabStop = false;
             this.grbUpgrades.Text = "Upgrades";
             // 
+            // lblUpgrade6HormonenExtraKinderenPerSeconde
+            // 
+            this.lblUpgrade6HormonenExtraKinderenPerSeconde.AutoSize = true;
+            this.lblUpgrade6HormonenExtraKinderenPerSeconde.Location = new System.Drawing.Point(56, 356);
+            this.lblUpgrade6HormonenExtraKinderenPerSeconde.Name = "lblUpgrade6HormonenExtraKinderenPerSeconde";
+            this.lblUpgrade6HormonenExtraKinderenPerSeconde.Size = new System.Drawing.Size(161, 13);
+            this.lblUpgrade6HormonenExtraKinderenPerSeconde.TabIndex = 2;
+            this.lblUpgrade6HormonenExtraKinderenPerSeconde.Text = "Extra kinderen per seconde: 100";
+            this.lblUpgrade6HormonenExtraKinderenPerSeconde.Click += new System.EventHandler(this.lblUpgrade6HormonenExtraKinderenPerSeconde_Click);
+            // 
+            // lblUpgrade5ElektrischKippenpoortjeExtraKinderenPerSeconde
+            // 
+            this.lblUpgrade5ElektrischKippenpoortjeExtraKinderenPerSeconde.AutoSize = true;
+            this.lblUpgrade5ElektrischKippenpoortjeExtraKinderenPerSeconde.Location = new System.Drawing.Point(56, 296);
+            this.lblUpgrade5ElektrischKippenpoortjeExtraKinderenPerSeconde.Name = "lblUpgrade5ElektrischKippenpoortjeExtraKinderenPerSeconde";
+            this.lblUpgrade5ElektrischKippenpoortjeExtraKinderenPerSeconde.Size = new System.Drawing.Size(155, 13);
+            this.lblUpgrade5ElektrischKippenpoortjeExtraKinderenPerSeconde.TabIndex = 2;
+            this.lblUpgrade5ElektrischKippenpoortjeExtraKinderenPerSeconde.Text = "Extra kinderen per seconde: 20";
+            this.lblUpgrade5ElektrischKippenpoortjeExtraKinderenPerSeconde.Click += new System.EventHandler(this.lblUpgrade5ElektrischKippenpoortjeExtraKinderenPerSeconde_Click);
+            // 
+            // lblUpgrade4VerwarmdKippenhokExtraKinderenPerSeconde
+            // 
+            this.lblUpgrade4VerwarmdKippenhokExtraKinderenPerSeconde.AutoSize = true;
+            this.lblUpgrade4VerwarmdKippenhokExtraKinderenPerSeconde.Location = new System.Drawing.Point(56, 236);
+            this.lblUpgrade4VerwarmdKippenhokExtraKinderenPerSeconde.Name = "lblUpgrade4VerwarmdKippenhokExtraKinderenPerSeconde";
+            this.lblUpgrade4VerwarmdKippenhokExtraKinderenPerSeconde.Size = new System.Drawing.Size(155, 13);
+            this.lblUpgrade4VerwarmdKippenhokExtraKinderenPerSeconde.TabIndex = 2;
+            this.lblUpgrade4VerwarmdKippenhokExtraKinderenPerSeconde.Text = "Extra kinderen per seconde: 10";
+            this.lblUpgrade4VerwarmdKippenhokExtraKinderenPerSeconde.Click += new System.EventHandler(this.lblUpgrade4VerwarmdKippenhokExtraKinderenPerSeconde_Click);
+            // 
+            // lblUpgrade3KippenhekExtraKinderenPerSeconde
+            // 
+            this.lblUpgrade3KippenhekExtraKinderenPerSeconde.AutoSize = true;
+            this.lblUpgrade3KippenhekExtraKinderenPerSeconde.Location = new System.Drawing.Point(56, 176);
+            this.lblUpgrade3KippenhekExtraKinderenPerSeconde.Name = "lblUpgrade3KippenhekExtraKinderenPerSeconde";
+            this.lblUpgrade3KippenhekExtraKinderenPerSeconde.Size = new System.Drawing.Size(149, 13);
+            this.lblUpgrade3KippenhekExtraKinderenPerSeconde.TabIndex = 2;
+            this.lblUpgrade3KippenhekExtraKinderenPerSeconde.Text = "Extra kinderen per seconde: 3";
+            this.lblUpgrade3KippenhekExtraKinderenPerSeconde.Click += new System.EventHandler(this.lblUpgrade3KippenhekExtraKinderenPerSeconde_Click);
+            // 
+            // lblUpgrade2EastereegExtraKinderenPerSeconde
+            // 
+            this.lblUpgrade2EastereegExtraKinderenPerSeconde.AutoSize = true;
+            this.lblUpgrade2EastereegExtraKinderenPerSeconde.Location = new System.Drawing.Point(56, 116);
+            this.lblUpgrade2EastereegExtraKinderenPerSeconde.Name = "lblUpgrade2EastereegExtraKinderenPerSeconde";
+            this.lblUpgrade2EastereegExtraKinderenPerSeconde.Size = new System.Drawing.Size(158, 13);
+            this.lblUpgrade2EastereegExtraKinderenPerSeconde.TabIndex = 2;
+            this.lblUpgrade2EastereegExtraKinderenPerSeconde.Text = "Extra kinderen per seconde: 1.5";
+            this.lblUpgrade2EastereegExtraKinderenPerSeconde.Click += new System.EventHandler(this.lblUpgrade2EastereegExtraKinderenPerSeconde_Click);
+            // 
+            // lblUpgrade1VerdundKippenvoerKinderenPerSeconde
+            // 
+            this.lblUpgrade1VerdundKippenvoerKinderenPerSeconde.AutoSize = true;
+            this.lblUpgrade1VerdundKippenvoerKinderenPerSeconde.Location = new System.Drawing.Point(56, 59);
+            this.lblUpgrade1VerdundKippenvoerKinderenPerSeconde.Name = "lblUpgrade1VerdundKippenvoerKinderenPerSeconde";
+            this.lblUpgrade1VerdundKippenvoerKinderenPerSeconde.Size = new System.Drawing.Size(149, 13);
+            this.lblUpgrade1VerdundKippenvoerKinderenPerSeconde.TabIndex = 2;
+            this.lblUpgrade1VerdundKippenvoerKinderenPerSeconde.Text = "Extra kinderen per seconde: 1";
+            this.lblUpgrade1VerdundKippenvoerKinderenPerSeconde.Click += new System.EventHandler(this.lblUpgrade1VerdundKippenvoerKinderenPerSeconde_Click);
+            // 
+            // lblUpgrade6HormonenPrijs
+            // 
+            this.lblUpgrade6HormonenPrijs.AutoSize = true;
+            this.lblUpgrade6HormonenPrijs.Location = new System.Drawing.Point(56, 343);
+            this.lblUpgrade6HormonenPrijs.Name = "lblUpgrade6HormonenPrijs";
+            this.lblUpgrade6HormonenPrijs.Size = new System.Drawing.Size(112, 13);
+            this.lblUpgrade6HormonenPrijs.TabIndex = 2;
+            this.lblUpgrade6HormonenPrijs.Text = "Prijs: 100000 kinderen";
+            this.lblUpgrade6HormonenPrijs.Click += new System.EventHandler(this.lblUpgrade6HormonenPrijs_Click);
+            // 
+            // lblUpgrade5ElektrischKippenpoortjePrijs
+            // 
+            this.lblUpgrade5ElektrischKippenpoortjePrijs.AutoSize = true;
+            this.lblUpgrade5ElektrischKippenpoortjePrijs.Location = new System.Drawing.Point(56, 283);
+            this.lblUpgrade5ElektrischKippenpoortjePrijs.Name = "lblUpgrade5ElektrischKippenpoortjePrijs";
+            this.lblUpgrade5ElektrischKippenpoortjePrijs.Size = new System.Drawing.Size(106, 13);
+            this.lblUpgrade5ElektrischKippenpoortjePrijs.TabIndex = 2;
+            this.lblUpgrade5ElektrischKippenpoortjePrijs.Text = "Prijs: 25000 kinderen";
+            this.lblUpgrade5ElektrischKippenpoortjePrijs.Click += new System.EventHandler(this.lblUpgrade5ElektrischKippenpoortjePrijs_Click);
+            // 
+            // lblUpgrade4VerwarmdKippenhokPrijs
+            // 
+            this.lblUpgrade4VerwarmdKippenhokPrijs.AutoSize = true;
+            this.lblUpgrade4VerwarmdKippenhokPrijs.Location = new System.Drawing.Point(56, 223);
+            this.lblUpgrade4VerwarmdKippenhokPrijs.Name = "lblUpgrade4VerwarmdKippenhokPrijs";
+            this.lblUpgrade4VerwarmdKippenhokPrijs.Size = new System.Drawing.Size(106, 13);
+            this.lblUpgrade4VerwarmdKippenhokPrijs.TabIndex = 2;
+            this.lblUpgrade4VerwarmdKippenhokPrijs.Text = "Prijs: 10000 kinderen";
+            this.lblUpgrade4VerwarmdKippenhokPrijs.Click += new System.EventHandler(this.lblUpgrade4VerwarmdKippenhokPrijs_Click);
+            // 
+            // lblUpgrade3KippenhekPrijs
+            // 
+            this.lblUpgrade3KippenhekPrijs.AutoSize = true;
+            this.lblUpgrade3KippenhekPrijs.Location = new System.Drawing.Point(56, 163);
+            this.lblUpgrade3KippenhekPrijs.Name = "lblUpgrade3KippenhekPrijs";
+            this.lblUpgrade3KippenhekPrijs.Size = new System.Drawing.Size(100, 13);
+            this.lblUpgrade3KippenhekPrijs.TabIndex = 2;
+            this.lblUpgrade3KippenhekPrijs.Text = "Prijs: 2000 kinderen";
+            this.lblUpgrade3KippenhekPrijs.Click += new System.EventHandler(this.lblUpgrade3KippenhekPrijs_Click);
+            // 
+            // lblUpgrade2EastereggPrijs
+            // 
+            this.lblUpgrade2EastereggPrijs.AutoSize = true;
+            this.lblUpgrade2EastereggPrijs.Location = new System.Drawing.Point(56, 103);
+            this.lblUpgrade2EastereggPrijs.Name = "lblUpgrade2EastereggPrijs";
+            this.lblUpgrade2EastereggPrijs.Size = new System.Drawing.Size(94, 13);
+            this.lblUpgrade2EastereggPrijs.TabIndex = 2;
+            this.lblUpgrade2EastereggPrijs.Text = "Prijs: 500 kinderen";
+            this.lblUpgrade2EastereggPrijs.Click += new System.EventHandler(this.lblUpgrade2EastereggPrijs_Click);
+            // 
             // lblUpgrade1VerdundKippenvoerPrijs
             // 
             this.lblUpgrade1VerdundKippenvoerPrijs.AutoSize = true;
-            this.lblUpgrade1VerdundKippenvoerPrijs.Location = new System.Drawing.Point(56, 39);
+            this.lblUpgrade1VerdundKippenvoerPrijs.Location = new System.Drawing.Point(56, 46);
             this.lblUpgrade1VerdundKippenvoerPrijs.Name = "lblUpgrade1VerdundKippenvoerPrijs";
             this.lblUpgrade1VerdundKippenvoerPrijs.Size = new System.Drawing.Size(94, 13);
             this.lblUpgrade1VerdundKippenvoerPrijs.TabIndex = 2;
             this.lblUpgrade1VerdundKippenvoerPrijs.Text = "Prijs: 150 kinderen";
             this.lblUpgrade1VerdundKippenvoerPrijs.Click += new System.EventHandler(this.lblUpgrade1VerdundKippenvoerPrijs_Click);
             // 
+            // lblUpgrade6Hormonen
+            // 
+            this.lblUpgrade6Hormonen.AutoSize = true;
+            this.lblUpgrade6Hormonen.Location = new System.Drawing.Point(56, 326);
+            this.lblUpgrade6Hormonen.Name = "lblUpgrade6Hormonen";
+            this.lblUpgrade6Hormonen.Size = new System.Drawing.Size(56, 13);
+            this.lblUpgrade6Hormonen.TabIndex = 0;
+            this.lblUpgrade6Hormonen.Text = "Hormonen";
+            this.lblUpgrade6Hormonen.Click += new System.EventHandler(this.lblUpgrade6Hormonen_Click);
+            // 
+            // lblUpgrade5ElektrischKippenpoortje
+            // 
+            this.lblUpgrade5ElektrischKippenpoortje.AutoSize = true;
+            this.lblUpgrade5ElektrischKippenpoortje.Location = new System.Drawing.Point(56, 266);
+            this.lblUpgrade5ElektrischKippenpoortje.Name = "lblUpgrade5ElektrischKippenpoortje";
+            this.lblUpgrade5ElektrischKippenpoortje.Size = new System.Drawing.Size(120, 13);
+            this.lblUpgrade5ElektrischKippenpoortje.TabIndex = 0;
+            this.lblUpgrade5ElektrischKippenpoortje.Text = "Elektrisch kippenpoortje";
+            this.lblUpgrade5ElektrischKippenpoortje.Click += new System.EventHandler(this.lblUpgrade5ElektrischKippenpoortje_Click);
+            // 
+            // lblUpgrade4VerwarmdKippenhok
+            // 
+            this.lblUpgrade4VerwarmdKippenhok.AutoSize = true;
+            this.lblUpgrade4VerwarmdKippenhok.Location = new System.Drawing.Point(56, 206);
+            this.lblUpgrade4VerwarmdKippenhok.Name = "lblUpgrade4VerwarmdKippenhok";
+            this.lblUpgrade4VerwarmdKippenhok.Size = new System.Drawing.Size(107, 13);
+            this.lblUpgrade4VerwarmdKippenhok.TabIndex = 0;
+            this.lblUpgrade4VerwarmdKippenhok.Text = "Verwarmd kippenhok";
+            this.lblUpgrade4VerwarmdKippenhok.Click += new System.EventHandler(this.lblUpgrade4VerwarmdKippenhok_Click);
+            // 
+            // lblUpgrade3Kippenhek
+            // 
+            this.lblUpgrade3Kippenhek.AutoSize = true;
+            this.lblUpgrade3Kippenhek.Location = new System.Drawing.Point(56, 146);
+            this.lblUpgrade3Kippenhek.Name = "lblUpgrade3Kippenhek";
+            this.lblUpgrade3Kippenhek.Size = new System.Drawing.Size(58, 13);
+            this.lblUpgrade3Kippenhek.TabIndex = 0;
+            this.lblUpgrade3Kippenhek.Text = "Kippenhek";
+            this.lblUpgrade3Kippenhek.Click += new System.EventHandler(this.lblUpgrade3Kippenhek_Click);
+            // 
+            // lblUpgrade2Easteregg
+            // 
+            this.lblUpgrade2Easteregg.AutoSize = true;
+            this.lblUpgrade2Easteregg.Location = new System.Drawing.Point(56, 86);
+            this.lblUpgrade2Easteregg.Name = "lblUpgrade2Easteregg";
+            this.lblUpgrade2Easteregg.Size = new System.Drawing.Size(55, 13);
+            this.lblUpgrade2Easteregg.TabIndex = 0;
+            this.lblUpgrade2Easteregg.Text = "Easteregg";
+            this.lblUpgrade2Easteregg.Click += new System.EventHandler(this.lblUpgrade2Easteregg_Click);
+            // 
             // lblUpgrade1VerdundKippenvoer
             // 
             this.lblUpgrade1VerdundKippenvoer.AutoSize = true;
-            this.lblUpgrade1VerdundKippenvoer.Location = new System.Drawing.Point(56, 22);
+            this.lblUpgrade1VerdundKippenvoer.Location = new System.Drawing.Point(56, 29);
             this.lblUpgrade1VerdundKippenvoer.Name = "lblUpgrade1VerdundKippenvoer";
             this.lblUpgrade1VerdundKippenvoer.Size = new System.Drawing.Size(103, 13);
             this.lblUpgrade1VerdundKippenvoer.TabIndex = 0;
@@ -211,6 +398,24 @@
             this.grbStats.TabIndex = 6;
             this.grbStats.TabStop = false;
             this.grbStats.Text = "Stats";
+            // 
+            // lblMaxCPS
+            // 
+            this.lblMaxCPS.AutoSize = true;
+            this.lblMaxCPS.Location = new System.Drawing.Point(6, 55);
+            this.lblMaxCPS.Name = "lblMaxCPS";
+            this.lblMaxCPS.Size = new System.Drawing.Size(54, 13);
+            this.lblMaxCPS.TabIndex = 0;
+            this.lblMaxCPS.Text = "Max CPS:";
+            // 
+            // lblCPS
+            // 
+            this.lblCPS.AutoSize = true;
+            this.lblCPS.Location = new System.Drawing.Point(6, 42);
+            this.lblCPS.Name = "lblCPS";
+            this.lblCPS.Size = new System.Drawing.Size(31, 13);
+            this.lblCPS.TabIndex = 0;
+            this.lblCPS.Text = "CPS:";
             // 
             // lblTotaalAutomatischGeproduceerd
             // 
@@ -260,167 +465,274 @@
             this.tmrAnimatie.Interval = 500;
             this.tmrAnimatie.Tick += new System.EventHandler(this.tmrAnimatie_Tick);
             // 
-            // lblCPS
-            // 
-            this.lblCPS.AutoSize = true;
-            this.lblCPS.Location = new System.Drawing.Point(6, 42);
-            this.lblCPS.Name = "lblCPS";
-            this.lblCPS.Size = new System.Drawing.Size(31, 13);
-            this.lblCPS.TabIndex = 0;
-            this.lblCPS.Text = "CPS:";
-            // 
             // tmrCPS
             // 
             this.tmrCPS.Interval = 1000;
             this.tmrCPS.Tick += new System.EventHandler(this.tmrCPS_Tick);
             // 
-            // lblUpgrade1VerdundKippenvoerKinderenPerSeconde
+            // grbBoerderij
             // 
-            this.lblUpgrade1VerdundKippenvoerKinderenPerSeconde.AutoSize = true;
-            this.lblUpgrade1VerdundKippenvoerKinderenPerSeconde.Location = new System.Drawing.Point(56, 52);
-            this.lblUpgrade1VerdundKippenvoerKinderenPerSeconde.Name = "lblUpgrade1VerdundKippenvoerKinderenPerSeconde";
-            this.lblUpgrade1VerdundKippenvoerKinderenPerSeconde.Size = new System.Drawing.Size(149, 13);
-            this.lblUpgrade1VerdundKippenvoerKinderenPerSeconde.TabIndex = 2;
-            this.lblUpgrade1VerdundKippenvoerKinderenPerSeconde.Text = "Extra kinderen per seconde: 1";
-            this.lblUpgrade1VerdundKippenvoerKinderenPerSeconde.Click += new System.EventHandler(this.lblUpgrade1VerdundKippenvoerKinderenPerSeconde_Click);
+            this.grbBoerderij.Controls.Add(this.lblUpgrade6Aantal);
+            this.grbBoerderij.Controls.Add(this.lblUpgrade5Aantal);
+            this.grbBoerderij.Controls.Add(this.lblUpgrade4Aantal);
+            this.grbBoerderij.Controls.Add(this.lblUpgrade3Aantal);
+            this.grbBoerderij.Controls.Add(this.lblUpgrade2Aantal);
+            this.grbBoerderij.Controls.Add(this.lblUpgrade6Procent);
+            this.grbBoerderij.Controls.Add(this.lblUpgrade5Procent);
+            this.grbBoerderij.Controls.Add(this.lblUpgrade4Procent);
+            this.grbBoerderij.Controls.Add(this.lblUpgrade3Procent);
+            this.grbBoerderij.Controls.Add(this.lblUpgrade6KinderenPerSeconde);
+            this.grbBoerderij.Controls.Add(this.lblUpgrade5KinderenPerSeconde);
+            this.grbBoerderij.Controls.Add(this.lblUpgrade4KinderenPerSeconde);
+            this.grbBoerderij.Controls.Add(this.lblUpgrade3KinderenPerSeconde);
+            this.grbBoerderij.Controls.Add(this.lblUpgrade2KinderenPerSeconde);
+            this.grbBoerderij.Controls.Add(this.lblUpgrade2Procent);
+            this.grbBoerderij.Controls.Add(this.lblUpgrade1KinderenPerSeconde);
+            this.grbBoerderij.Controls.Add(this.lblUpgrade1Procent);
+            this.grbBoerderij.Controls.Add(this.lblUpgrade1Aantal);
+            this.grbBoerderij.Controls.Add(this.lblVerdundKippenvoer);
+            this.grbBoerderij.Controls.Add(this.lblEasteregg);
+            this.grbBoerderij.Controls.Add(this.lblKippenhek);
+            this.grbBoerderij.Controls.Add(this.lblVerwarmdKippenhok);
+            this.grbBoerderij.Controls.Add(this.lblElektrischKippenpoortje);
+            this.grbBoerderij.Controls.Add(this.lblHormonen);
+            this.grbBoerderij.Location = new System.Drawing.Point(275, 6);
+            this.grbBoerderij.Name = "grbBoerderij";
+            this.grbBoerderij.Size = new System.Drawing.Size(294, 293);
+            this.grbBoerderij.TabIndex = 8;
+            this.grbBoerderij.TabStop = false;
+            this.grbBoerderij.Text = "Boerderij";
             // 
-            // lblUpgrade2Easteregg
+            // lblVerdundKippenvoer
             // 
-            this.lblUpgrade2Easteregg.AutoSize = true;
-            this.lblUpgrade2Easteregg.Location = new System.Drawing.Point(56, 79);
-            this.lblUpgrade2Easteregg.Name = "lblUpgrade2Easteregg";
-            this.lblUpgrade2Easteregg.Size = new System.Drawing.Size(55, 13);
-            this.lblUpgrade2Easteregg.TabIndex = 0;
-            this.lblUpgrade2Easteregg.Text = "Easteregg";
-            this.lblUpgrade2Easteregg.Click += new System.EventHandler(this.lblUpgrade2Easteregg_Click);
+            this.lblVerdundKippenvoer.AutoSize = true;
+            this.lblVerdundKippenvoer.Location = new System.Drawing.Point(6, 26);
+            this.lblVerdundKippenvoer.Name = "lblVerdundKippenvoer";
+            this.lblVerdundKippenvoer.Size = new System.Drawing.Size(103, 13);
+            this.lblVerdundKippenvoer.TabIndex = 0;
+            this.lblVerdundKippenvoer.Text = "Verdund kippenvoer";
+            this.lblVerdundKippenvoer.Click += new System.EventHandler(this.lblUpgrade1VerdundKippenvoer_Click);
             // 
-            // lblUpgrade2EastereggPrijs
+            // lblEasteregg
             // 
-            this.lblUpgrade2EastereggPrijs.AutoSize = true;
-            this.lblUpgrade2EastereggPrijs.Location = new System.Drawing.Point(56, 96);
-            this.lblUpgrade2EastereggPrijs.Name = "lblUpgrade2EastereggPrijs";
-            this.lblUpgrade2EastereggPrijs.Size = new System.Drawing.Size(94, 13);
-            this.lblUpgrade2EastereggPrijs.TabIndex = 2;
-            this.lblUpgrade2EastereggPrijs.Text = "Prijs: 500 kinderen";
-            this.lblUpgrade2EastereggPrijs.Click += new System.EventHandler(this.lblUpgrade2EastereggPrijs_Click);
+            this.lblEasteregg.AutoSize = true;
+            this.lblEasteregg.Location = new System.Drawing.Point(6, 68);
+            this.lblEasteregg.Name = "lblEasteregg";
+            this.lblEasteregg.Size = new System.Drawing.Size(55, 13);
+            this.lblEasteregg.TabIndex = 0;
+            this.lblEasteregg.Text = "Easteregg";
+            this.lblEasteregg.Click += new System.EventHandler(this.lblUpgrade2Easteregg_Click);
             // 
-            // lblUpgrade2EastereegExtraKinderenPerSeconde
+            // lblKippenhek
             // 
-            this.lblUpgrade2EastereegExtraKinderenPerSeconde.AutoSize = true;
-            this.lblUpgrade2EastereegExtraKinderenPerSeconde.Location = new System.Drawing.Point(56, 109);
-            this.lblUpgrade2EastereegExtraKinderenPerSeconde.Name = "lblUpgrade2EastereegExtraKinderenPerSeconde";
-            this.lblUpgrade2EastereegExtraKinderenPerSeconde.Size = new System.Drawing.Size(158, 13);
-            this.lblUpgrade2EastereegExtraKinderenPerSeconde.TabIndex = 2;
-            this.lblUpgrade2EastereegExtraKinderenPerSeconde.Text = "Extra kinderen per seconde: 1.5";
-            this.lblUpgrade2EastereegExtraKinderenPerSeconde.Click += new System.EventHandler(this.lblUpgrade2EastereegExtraKinderenPerSeconde_Click);
+            this.lblKippenhek.AutoSize = true;
+            this.lblKippenhek.Location = new System.Drawing.Point(6, 110);
+            this.lblKippenhek.Name = "lblKippenhek";
+            this.lblKippenhek.Size = new System.Drawing.Size(58, 13);
+            this.lblKippenhek.TabIndex = 0;
+            this.lblKippenhek.Text = "Kippenhek";
+            this.lblKippenhek.Click += new System.EventHandler(this.lblUpgrade3Kippenhek_Click);
             // 
-            // lblUpgrade3Kippenhek
+            // lblVerwarmdKippenhok
             // 
-            this.lblUpgrade3Kippenhek.AutoSize = true;
-            this.lblUpgrade3Kippenhek.Location = new System.Drawing.Point(56, 139);
-            this.lblUpgrade3Kippenhek.Name = "lblUpgrade3Kippenhek";
-            this.lblUpgrade3Kippenhek.Size = new System.Drawing.Size(58, 13);
-            this.lblUpgrade3Kippenhek.TabIndex = 0;
-            this.lblUpgrade3Kippenhek.Text = "Kippenhek";
+            this.lblVerwarmdKippenhok.AutoSize = true;
+            this.lblVerwarmdKippenhok.Location = new System.Drawing.Point(6, 152);
+            this.lblVerwarmdKippenhok.Name = "lblVerwarmdKippenhok";
+            this.lblVerwarmdKippenhok.Size = new System.Drawing.Size(107, 13);
+            this.lblVerwarmdKippenhok.TabIndex = 0;
+            this.lblVerwarmdKippenhok.Text = "Verwarmd kippenhok";
+            this.lblVerwarmdKippenhok.Click += new System.EventHandler(this.lblUpgrade4VerwarmdKippenhok_Click);
             // 
-            // lblUpgrade3KippenhekPrijs
+            // lblElektrischKippenpoortje
             // 
-            this.lblUpgrade3KippenhekPrijs.AutoSize = true;
-            this.lblUpgrade3KippenhekPrijs.Location = new System.Drawing.Point(56, 156);
-            this.lblUpgrade3KippenhekPrijs.Name = "lblUpgrade3KippenhekPrijs";
-            this.lblUpgrade3KippenhekPrijs.Size = new System.Drawing.Size(100, 13);
-            this.lblUpgrade3KippenhekPrijs.TabIndex = 2;
-            this.lblUpgrade3KippenhekPrijs.Text = "Prijs: 2000 kinderen";
+            this.lblElektrischKippenpoortje.AutoSize = true;
+            this.lblElektrischKippenpoortje.Location = new System.Drawing.Point(6, 194);
+            this.lblElektrischKippenpoortje.Name = "lblElektrischKippenpoortje";
+            this.lblElektrischKippenpoortje.Size = new System.Drawing.Size(120, 13);
+            this.lblElektrischKippenpoortje.TabIndex = 0;
+            this.lblElektrischKippenpoortje.Text = "Elektrisch kippenpoortje";
+            this.lblElektrischKippenpoortje.Click += new System.EventHandler(this.lblUpgrade5ElektrischKippenpoortje_Click);
             // 
-            // lblUpgrade3KippenhekExtraKinderenPerSeconde
+            // lblHormonen
             // 
-            this.lblUpgrade3KippenhekExtraKinderenPerSeconde.AutoSize = true;
-            this.lblUpgrade3KippenhekExtraKinderenPerSeconde.Location = new System.Drawing.Point(56, 169);
-            this.lblUpgrade3KippenhekExtraKinderenPerSeconde.Name = "lblUpgrade3KippenhekExtraKinderenPerSeconde";
-            this.lblUpgrade3KippenhekExtraKinderenPerSeconde.Size = new System.Drawing.Size(149, 13);
-            this.lblUpgrade3KippenhekExtraKinderenPerSeconde.TabIndex = 2;
-            this.lblUpgrade3KippenhekExtraKinderenPerSeconde.Text = "Extra kinderen per seconde: 3";
+            this.lblHormonen.AutoSize = true;
+            this.lblHormonen.Location = new System.Drawing.Point(6, 236);
+            this.lblHormonen.Name = "lblHormonen";
+            this.lblHormonen.Size = new System.Drawing.Size(56, 13);
+            this.lblHormonen.TabIndex = 0;
+            this.lblHormonen.Text = "Hormonen";
+            this.lblHormonen.Click += new System.EventHandler(this.lblUpgrade6Hormonen_Click);
             // 
-            // label4
+            // lblUpgrade1Aantal
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(56, 199);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(103, 13);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Verdund kippenvoer";
+            this.lblUpgrade1Aantal.AutoSize = true;
+            this.lblUpgrade1Aantal.Location = new System.Drawing.Point(177, 26);
+            this.lblUpgrade1Aantal.Name = "lblUpgrade1Aantal";
+            this.lblUpgrade1Aantal.Size = new System.Drawing.Size(49, 13);
+            this.lblUpgrade1Aantal.TabIndex = 1;
+            this.lblUpgrade1Aantal.Text = "Aantal: 0";
             // 
-            // label5
+            // lblUpgrade2Aantal
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(56, 216);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(94, 13);
-            this.label5.TabIndex = 2;
-            this.label5.Text = "Prijs: 500 kinderen";
+            this.lblUpgrade2Aantal.AutoSize = true;
+            this.lblUpgrade2Aantal.Location = new System.Drawing.Point(177, 68);
+            this.lblUpgrade2Aantal.Name = "lblUpgrade2Aantal";
+            this.lblUpgrade2Aantal.Size = new System.Drawing.Size(49, 13);
+            this.lblUpgrade2Aantal.TabIndex = 1;
+            this.lblUpgrade2Aantal.Text = "Aantal: 0";
             // 
-            // label6
+            // lblUpgrade3Aantal
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(56, 229);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(158, 13);
-            this.label6.TabIndex = 2;
-            this.label6.Text = "Extra kinderen per seconde: 1.5";
+            this.lblUpgrade3Aantal.AutoSize = true;
+            this.lblUpgrade3Aantal.Location = new System.Drawing.Point(177, 109);
+            this.lblUpgrade3Aantal.Name = "lblUpgrade3Aantal";
+            this.lblUpgrade3Aantal.Size = new System.Drawing.Size(49, 13);
+            this.lblUpgrade3Aantal.TabIndex = 1;
+            this.lblUpgrade3Aantal.Text = "Aantal: 0";
             // 
-            // label7
+            // lblUpgrade4Aantal
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(56, 259);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(103, 13);
-            this.label7.TabIndex = 0;
-            this.label7.Text = "Verdund kippenvoer";
+            this.lblUpgrade4Aantal.AutoSize = true;
+            this.lblUpgrade4Aantal.Location = new System.Drawing.Point(177, 152);
+            this.lblUpgrade4Aantal.Name = "lblUpgrade4Aantal";
+            this.lblUpgrade4Aantal.Size = new System.Drawing.Size(49, 13);
+            this.lblUpgrade4Aantal.TabIndex = 1;
+            this.lblUpgrade4Aantal.Text = "Aantal: 0";
             // 
-            // label8
+            // lblUpgrade5Aantal
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(56, 276);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(94, 13);
-            this.label8.TabIndex = 2;
-            this.label8.Text = "Prijs: 500 kinderen";
+            this.lblUpgrade5Aantal.AutoSize = true;
+            this.lblUpgrade5Aantal.Location = new System.Drawing.Point(177, 194);
+            this.lblUpgrade5Aantal.Name = "lblUpgrade5Aantal";
+            this.lblUpgrade5Aantal.Size = new System.Drawing.Size(49, 13);
+            this.lblUpgrade5Aantal.TabIndex = 1;
+            this.lblUpgrade5Aantal.Text = "Aantal: 0";
             // 
-            // label9
+            // lblUpgrade6Aantal
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(56, 289);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(158, 13);
-            this.label9.TabIndex = 2;
-            this.label9.Text = "Extra kinderen per seconde: 1.5";
+            this.lblUpgrade6Aantal.AutoSize = true;
+            this.lblUpgrade6Aantal.Location = new System.Drawing.Point(177, 236);
+            this.lblUpgrade6Aantal.Name = "lblUpgrade6Aantal";
+            this.lblUpgrade6Aantal.Size = new System.Drawing.Size(49, 13);
+            this.lblUpgrade6Aantal.TabIndex = 1;
+            this.lblUpgrade6Aantal.Text = "Aantal: 0";
             // 
-            // label10
+            // lblUpgrade1Procent
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(56, 319);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(103, 13);
-            this.label10.TabIndex = 0;
-            this.label10.Text = "Verdund kippenvoer";
+            this.lblUpgrade1Procent.AutoSize = true;
+            this.lblUpgrade1Procent.Location = new System.Drawing.Point(15, 52);
+            this.lblUpgrade1Procent.Name = "lblUpgrade1Procent";
+            this.lblUpgrade1Procent.Size = new System.Drawing.Size(124, 13);
+            this.lblUpgrade1Procent.TabIndex = 1;
+            this.lblUpgrade1Procent.Text = "Aandeel in productie: 0%";
             // 
-            // label11
+            // lblUpgrade2Procent
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(56, 336);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(94, 13);
-            this.label11.TabIndex = 2;
-            this.label11.Text = "Prijs: 500 kinderen";
+            this.lblUpgrade2Procent.AutoSize = true;
+            this.lblUpgrade2Procent.Location = new System.Drawing.Point(15, 94);
+            this.lblUpgrade2Procent.Name = "lblUpgrade2Procent";
+            this.lblUpgrade2Procent.Size = new System.Drawing.Size(124, 13);
+            this.lblUpgrade2Procent.TabIndex = 1;
+            this.lblUpgrade2Procent.Text = "Aandeel in productie: 0%";
             // 
-            // label12
+            // lblUpgrade3Procent
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(56, 349);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(158, 13);
-            this.label12.TabIndex = 2;
-            this.label12.Text = "Extra kinderen per seconde: 1.5";
+            this.lblUpgrade3Procent.AutoSize = true;
+            this.lblUpgrade3Procent.Location = new System.Drawing.Point(15, 136);
+            this.lblUpgrade3Procent.Name = "lblUpgrade3Procent";
+            this.lblUpgrade3Procent.Size = new System.Drawing.Size(124, 13);
+            this.lblUpgrade3Procent.TabIndex = 1;
+            this.lblUpgrade3Procent.Text = "Aandeel in productie: 0%";
+            // 
+            // lblUpgrade4Procent
+            // 
+            this.lblUpgrade4Procent.AutoSize = true;
+            this.lblUpgrade4Procent.Location = new System.Drawing.Point(15, 178);
+            this.lblUpgrade4Procent.Name = "lblUpgrade4Procent";
+            this.lblUpgrade4Procent.Size = new System.Drawing.Size(124, 13);
+            this.lblUpgrade4Procent.TabIndex = 1;
+            this.lblUpgrade4Procent.Text = "Aandeel in productie: 0%";
+            // 
+            // lblUpgrade5Procent
+            // 
+            this.lblUpgrade5Procent.AutoSize = true;
+            this.lblUpgrade5Procent.Location = new System.Drawing.Point(15, 220);
+            this.lblUpgrade5Procent.Name = "lblUpgrade5Procent";
+            this.lblUpgrade5Procent.Size = new System.Drawing.Size(124, 13);
+            this.lblUpgrade5Procent.TabIndex = 1;
+            this.lblUpgrade5Procent.Text = "Aandeel in productie: 0%";
+            // 
+            // lblUpgrade6Procent
+            // 
+            this.lblUpgrade6Procent.AutoSize = true;
+            this.lblUpgrade6Procent.Location = new System.Drawing.Point(15, 262);
+            this.lblUpgrade6Procent.Name = "lblUpgrade6Procent";
+            this.lblUpgrade6Procent.Size = new System.Drawing.Size(124, 13);
+            this.lblUpgrade6Procent.TabIndex = 1;
+            this.lblUpgrade6Procent.Text = "Aandeel in productie: 0%";
+            // 
+            // lblCopyright
+            // 
+            this.lblCopyright.AutoSize = true;
+            this.lblCopyright.Location = new System.Drawing.Point(698, 425);
+            this.lblCopyright.Name = "lblCopyright";
+            this.lblCopyright.Size = new System.Drawing.Size(98, 13);
+            this.lblCopyright.TabIndex = 9;
+            this.lblCopyright.Text = "©Luka Verbrugghe";
+            // 
+            // lblUpgrade1KinderenPerSeconde
+            // 
+            this.lblUpgrade1KinderenPerSeconde.AutoSize = true;
+            this.lblUpgrade1KinderenPerSeconde.Location = new System.Drawing.Point(15, 39);
+            this.lblUpgrade1KinderenPerSeconde.Name = "lblUpgrade1KinderenPerSeconde";
+            this.lblUpgrade1KinderenPerSeconde.Size = new System.Drawing.Size(123, 13);
+            this.lblUpgrade1KinderenPerSeconde.TabIndex = 1;
+            this.lblUpgrade1KinderenPerSeconde.Text = "Kinderen per seconde: 0";
+            // 
+            // lblUpgrade2KinderenPerSeconde
+            // 
+            this.lblUpgrade2KinderenPerSeconde.AutoSize = true;
+            this.lblUpgrade2KinderenPerSeconde.Location = new System.Drawing.Point(15, 81);
+            this.lblUpgrade2KinderenPerSeconde.Name = "lblUpgrade2KinderenPerSeconde";
+            this.lblUpgrade2KinderenPerSeconde.Size = new System.Drawing.Size(123, 13);
+            this.lblUpgrade2KinderenPerSeconde.TabIndex = 1;
+            this.lblUpgrade2KinderenPerSeconde.Text = "Kinderen per seconde: 0";
+            // 
+            // lblUpgrade3KinderenPerSeconde
+            // 
+            this.lblUpgrade3KinderenPerSeconde.AutoSize = true;
+            this.lblUpgrade3KinderenPerSeconde.Location = new System.Drawing.Point(15, 123);
+            this.lblUpgrade3KinderenPerSeconde.Name = "lblUpgrade3KinderenPerSeconde";
+            this.lblUpgrade3KinderenPerSeconde.Size = new System.Drawing.Size(123, 13);
+            this.lblUpgrade3KinderenPerSeconde.TabIndex = 1;
+            this.lblUpgrade3KinderenPerSeconde.Text = "Kinderen per seconde: 0";
+            // 
+            // lblUpgrade4KinderenPerSeconde
+            // 
+            this.lblUpgrade4KinderenPerSeconde.AutoSize = true;
+            this.lblUpgrade4KinderenPerSeconde.Location = new System.Drawing.Point(15, 165);
+            this.lblUpgrade4KinderenPerSeconde.Name = "lblUpgrade4KinderenPerSeconde";
+            this.lblUpgrade4KinderenPerSeconde.Size = new System.Drawing.Size(123, 13);
+            this.lblUpgrade4KinderenPerSeconde.TabIndex = 1;
+            this.lblUpgrade4KinderenPerSeconde.Text = "Kinderen per seconde: 0";
+            // 
+            // lblUpgrade5KinderenPerSeconde
+            // 
+            this.lblUpgrade5KinderenPerSeconde.AutoSize = true;
+            this.lblUpgrade5KinderenPerSeconde.Location = new System.Drawing.Point(15, 207);
+            this.lblUpgrade5KinderenPerSeconde.Name = "lblUpgrade5KinderenPerSeconde";
+            this.lblUpgrade5KinderenPerSeconde.Size = new System.Drawing.Size(123, 13);
+            this.lblUpgrade5KinderenPerSeconde.TabIndex = 1;
+            this.lblUpgrade5KinderenPerSeconde.Text = "Kinderen per seconde: 0";
+            // 
+            // lblUpgrade6KinderenPerSeconde
+            // 
+            this.lblUpgrade6KinderenPerSeconde.AutoSize = true;
+            this.lblUpgrade6KinderenPerSeconde.Location = new System.Drawing.Point(15, 249);
+            this.lblUpgrade6KinderenPerSeconde.Name = "lblUpgrade6KinderenPerSeconde";
+            this.lblUpgrade6KinderenPerSeconde.Size = new System.Drawing.Size(123, 13);
+            this.lblUpgrade6KinderenPerSeconde.TabIndex = 1;
+            this.lblUpgrade6KinderenPerSeconde.Text = "Kinderen per seconde: 0";
             // 
             // picAdvancement16
             // 
@@ -582,50 +894,54 @@
             this.picAdvancement1.TabIndex = 3;
             this.picAdvancement1.TabStop = false;
             // 
-            // pictureBox4
+            // picUpgrade6Hormonen
             // 
-            this.pictureBox4.Image = global::prjCookieClicker.Properties.Resources.placeholderjpeg;
-            this.pictureBox4.Location = new System.Drawing.Point(6, 319);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(46, 46);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 1;
-            this.pictureBox4.TabStop = false;
+            this.picUpgrade6Hormonen.Image = global::prjCookieClicker.Properties.Resources.hormoon;
+            this.picUpgrade6Hormonen.Location = new System.Drawing.Point(6, 326);
+            this.picUpgrade6Hormonen.Name = "picUpgrade6Hormonen";
+            this.picUpgrade6Hormonen.Size = new System.Drawing.Size(46, 46);
+            this.picUpgrade6Hormonen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picUpgrade6Hormonen.TabIndex = 1;
+            this.picUpgrade6Hormonen.TabStop = false;
+            this.picUpgrade6Hormonen.Click += new System.EventHandler(this.picUpgrade6Hormonen_Click);
             // 
-            // pictureBox3
+            // picUpgrade5ElektrischKippenpoortje
             // 
-            this.pictureBox3.Image = global::prjCookieClicker.Properties.Resources.placeholderjpeg;
-            this.pictureBox3.Location = new System.Drawing.Point(6, 259);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(46, 46);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 1;
-            this.pictureBox3.TabStop = false;
+            this.picUpgrade5ElektrischKippenpoortje.Image = global::prjCookieClicker.Properties.Resources.kippenpoortje;
+            this.picUpgrade5ElektrischKippenpoortje.Location = new System.Drawing.Point(6, 266);
+            this.picUpgrade5ElektrischKippenpoortje.Name = "picUpgrade5ElektrischKippenpoortje";
+            this.picUpgrade5ElektrischKippenpoortje.Size = new System.Drawing.Size(46, 46);
+            this.picUpgrade5ElektrischKippenpoortje.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picUpgrade5ElektrischKippenpoortje.TabIndex = 1;
+            this.picUpgrade5ElektrischKippenpoortje.TabStop = false;
+            this.picUpgrade5ElektrischKippenpoortje.Click += new System.EventHandler(this.picUpgrade5ElektrischKippenpoortje_Click);
             // 
-            // pictureBox2
+            // picUpgrade4VerwarmdKippenhok
             // 
-            this.pictureBox2.Image = global::prjCookieClicker.Properties.Resources.placeholderjpeg;
-            this.pictureBox2.Location = new System.Drawing.Point(6, 199);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(46, 46);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
+            this.picUpgrade4VerwarmdKippenhok.Image = global::prjCookieClicker.Properties.Resources.kippenhok;
+            this.picUpgrade4VerwarmdKippenhok.Location = new System.Drawing.Point(6, 206);
+            this.picUpgrade4VerwarmdKippenhok.Name = "picUpgrade4VerwarmdKippenhok";
+            this.picUpgrade4VerwarmdKippenhok.Size = new System.Drawing.Size(46, 46);
+            this.picUpgrade4VerwarmdKippenhok.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picUpgrade4VerwarmdKippenhok.TabIndex = 1;
+            this.picUpgrade4VerwarmdKippenhok.TabStop = false;
+            this.picUpgrade4VerwarmdKippenhok.Click += new System.EventHandler(this.picUpgrade4VerwarmdKippenhok_Click);
             // 
             // picUpgrade3Kippenhek
             // 
             this.picUpgrade3Kippenhek.Image = global::prjCookieClicker.Properties.Resources.kippenhek;
-            this.picUpgrade3Kippenhek.Location = new System.Drawing.Point(6, 139);
+            this.picUpgrade3Kippenhek.Location = new System.Drawing.Point(6, 146);
             this.picUpgrade3Kippenhek.Name = "picUpgrade3Kippenhek";
             this.picUpgrade3Kippenhek.Size = new System.Drawing.Size(46, 46);
             this.picUpgrade3Kippenhek.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picUpgrade3Kippenhek.TabIndex = 1;
             this.picUpgrade3Kippenhek.TabStop = false;
+            this.picUpgrade3Kippenhek.Click += new System.EventHandler(this.picUpgrade3Kippenhek_Click);
             // 
             // picUpgrade2Easteregg
             // 
             this.picUpgrade2Easteregg.Image = global::prjCookieClicker.Properties.Resources.paasei;
-            this.picUpgrade2Easteregg.Location = new System.Drawing.Point(6, 79);
+            this.picUpgrade2Easteregg.Location = new System.Drawing.Point(6, 86);
             this.picUpgrade2Easteregg.Name = "picUpgrade2Easteregg";
             this.picUpgrade2Easteregg.Size = new System.Drawing.Size(46, 46);
             this.picUpgrade2Easteregg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -636,7 +952,7 @@
             // picUpgrade1VerdundKippenvoer
             // 
             this.picUpgrade1VerdundKippenvoer.Image = global::prjCookieClicker.Properties.Resources.Kippenvoer;
-            this.picUpgrade1VerdundKippenvoer.Location = new System.Drawing.Point(6, 19);
+            this.picUpgrade1VerdundKippenvoer.Location = new System.Drawing.Point(6, 26);
             this.picUpgrade1VerdundKippenvoer.Name = "picUpgrade1VerdundKippenvoer";
             this.picUpgrade1VerdundKippenvoer.Size = new System.Drawing.Size(46, 46);
             this.picUpgrade1VerdundKippenvoer.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -666,21 +982,14 @@
             this.picCock.TabStop = false;
             this.picCock.MouseDown += new System.Windows.Forms.MouseEventHandler(this.picCock_MouseDown);
             // 
-            // lblMaxCPS
-            // 
-            this.lblMaxCPS.AutoSize = true;
-            this.lblMaxCPS.Location = new System.Drawing.Point(6, 55);
-            this.lblMaxCPS.Name = "lblMaxCPS";
-            this.lblMaxCPS.Size = new System.Drawing.Size(54, 13);
-            this.lblMaxCPS.TabIndex = 0;
-            this.lblMaxCPS.Text = "Max CPS:";
-            // 
             // frmCockieClicker
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(808, 450);
+            this.Controls.Add(this.lblCopyright);
+            this.Controls.Add(this.grbBoerderij);
             this.Controls.Add(this.grbAdvancements);
             this.Controls.Add(this.grbStats);
             this.Controls.Add(this.lblKinderenPerSeconde);
@@ -696,6 +1005,8 @@
             this.grbStats.ResumeLayout(false);
             this.grbStats.PerformLayout();
             this.grbAdvancements.ResumeLayout(false);
+            this.grbBoerderij.ResumeLayout(false);
+            this.grbBoerderij.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picAdvancement16)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picAdvancement15)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picAdvancement8)).EndInit();
@@ -712,9 +1023,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.picAdvancement9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picAdvancement2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picAdvancement1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picUpgrade6Hormonen)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picUpgrade5ElektrischKippenpoortje)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picUpgrade4VerwarmdKippenhok)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picUpgrade3Kippenhek)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picUpgrade2Easteregg)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picUpgrade1VerdundKippenvoer)).EndInit();
@@ -765,23 +1076,49 @@
         private System.Windows.Forms.Label lblUpgrade1VerdundKippenvoerKinderenPerSeconde;
         private System.Windows.Forms.Label lblUpgrade2EastereggPrijs;
         private System.Windows.Forms.Label lblUpgrade2Easteregg;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label lblUpgrade6HormonenExtraKinderenPerSeconde;
+        private System.Windows.Forms.Label lblUpgrade5ElektrischKippenpoortjeExtraKinderenPerSeconde;
+        private System.Windows.Forms.Label lblUpgrade4VerwarmdKippenhokExtraKinderenPerSeconde;
         private System.Windows.Forms.Label lblUpgrade3KippenhekExtraKinderenPerSeconde;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lblUpgrade6HormonenPrijs;
+        private System.Windows.Forms.Label lblUpgrade5ElektrischKippenpoortjePrijs;
+        private System.Windows.Forms.Label lblUpgrade4VerwarmdKippenhokPrijs;
         private System.Windows.Forms.Label lblUpgrade3KippenhekPrijs;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.PictureBox picUpgrade6Hormonen;
+        private System.Windows.Forms.PictureBox picUpgrade5ElektrischKippenpoortje;
+        private System.Windows.Forms.Label lblUpgrade6Hormonen;
+        private System.Windows.Forms.PictureBox picUpgrade4VerwarmdKippenhok;
+        private System.Windows.Forms.Label lblUpgrade5ElektrischKippenpoortje;
         private System.Windows.Forms.PictureBox picUpgrade3Kippenhek;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lblUpgrade4VerwarmdKippenhok;
         private System.Windows.Forms.Label lblUpgrade3Kippenhek;
         private System.Windows.Forms.Label lblMaxCPS;
+        private System.Windows.Forms.GroupBox grbBoerderij;
+        private System.Windows.Forms.Label lblVerdundKippenvoer;
+        private System.Windows.Forms.Label lblEasteregg;
+        private System.Windows.Forms.Label lblKippenhek;
+        private System.Windows.Forms.Label lblVerwarmdKippenhok;
+        private System.Windows.Forms.Label lblElektrischKippenpoortje;
+        private System.Windows.Forms.Label lblHormonen;
+        private System.Windows.Forms.Label lblUpgrade6Aantal;
+        private System.Windows.Forms.Label lblUpgrade5Aantal;
+        private System.Windows.Forms.Label lblUpgrade4Aantal;
+        private System.Windows.Forms.Label lblUpgrade3Aantal;
+        private System.Windows.Forms.Label lblUpgrade2Aantal;
+        private System.Windows.Forms.Label lblUpgrade1Procent;
+        private System.Windows.Forms.Label lblUpgrade1Aantal;
+        private System.Windows.Forms.Label lblUpgrade6Procent;
+        private System.Windows.Forms.Label lblUpgrade5Procent;
+        private System.Windows.Forms.Label lblUpgrade4Procent;
+        private System.Windows.Forms.Label lblUpgrade3Procent;
+        private System.Windows.Forms.Label lblUpgrade2Procent;
+        private System.Windows.Forms.Label lblCopyright;
+        private System.Windows.Forms.Label lblUpgrade6KinderenPerSeconde;
+        private System.Windows.Forms.Label lblUpgrade5KinderenPerSeconde;
+        private System.Windows.Forms.Label lblUpgrade4KinderenPerSeconde;
+        private System.Windows.Forms.Label lblUpgrade3KinderenPerSeconde;
+        private System.Windows.Forms.Label lblUpgrade2KinderenPerSeconde;
+        private System.Windows.Forms.Label lblUpgrade1KinderenPerSeconde;
     }
 }
 

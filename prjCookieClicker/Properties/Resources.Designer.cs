@@ -103,9 +103,39 @@ namespace prjCookieClicker.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap hormoon {
+            get {
+                object obj = ResourceManager.GetObject("hormoon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap kippenhek {
             get {
                 object obj = ResourceManager.GetObject("kippenhek", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kippenhok {
+            get {
+                object obj = ResourceManager.GetObject("kippenhok", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kippenpoortje {
+            get {
+                object obj = ResourceManager.GetObject("kippenpoortje", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -126,6 +156,16 @@ namespace prjCookieClicker.Properties {
         internal static System.Drawing.Bitmap lazy {
             get {
                 object obj = ResourceManager.GetObject("lazy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap money_with_wings {
+            get {
+                object obj = ResourceManager.GetObject("money-with-wings", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -166,6 +206,16 @@ namespace prjCookieClicker.Properties {
         internal static System.Drawing.Bitmap secrept {
             get {
                 object obj = ResourceManager.GetObject("secrept", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap upgrade {
+            get {
+                object obj = ResourceManager.GetObject("upgrade", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
