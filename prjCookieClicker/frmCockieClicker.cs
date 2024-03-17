@@ -77,6 +77,8 @@ namespace prjCookieClicker
         bool advancement15Shown = false;
         bool advancement16Shown = false;
 
+        float floatBoostProcent = 0;
+
         //boerderij
         float floatUpgrade1Aantal = 0;
         float floatUpgrade2Aantal = 0;
@@ -373,7 +375,7 @@ namespace prjCookieClicker
         {
             //algemeen
             lblAantalKinderen.Text = "Aantal kinderen: " + Convert.ToString(Math.Round(floatAantalKinderen, 1));
-            lblKinderenPerSeconde.Text = "Kinderen per seconde: " + floatAantalKinderenPerSeconde.ToString();
+            lblKinderenPerSeconde.Text = "Kinderen per seconde: " + Convert.ToString(Math.Round(floatAantalKinderenPerSeconde, 2));
 
             //upgrades
             //upgrade 1
@@ -443,12 +445,15 @@ namespace prjCookieClicker
             lblTotaalGeproduceerd.Text = "Totaal geproduceerd: " + (Convert.ToString(Math.Round(floatTotaalAantalKeerGeklikt + floatTotaalAutomatischGeproduceerd, 1)));
             lblCPS.Text = "CPS: " + Convert.ToString(floatCPS) + " kliks per second";
             lblMaxCPS.Text = "Max CPS: " + Convert.ToString(Math.Round(floatMaxCPS, 1)) + " kliks per second";
+            lblAdvancementBoost.Text = "Advancement boost: " + Convert.ToString(floatBoostProcent) + "%";
 
             //advancements
             if (advancement1Bereikt && !advancement1Shown)
             {
                 advancement1Shown = true;
                 MessageBox.Show("U heeft al 10000 keer op de cock geklikt. Misschien is het een goed idee om eventjes naar buiten te gaan en gras aan te raken.", "Advancement: No life");
+                floatAantalKinderenPerSeconde = floatAantalKinderenPerSeconde + floatAantalKinderenPerSeconde * 0.02f;
+                floatBoostProcent = floatBoostProcent + 2;
                 picAdvancement1.Image = Properties.Resources.nolife;
             }
             if (advancement2Bereikt && !advancement2Shown)
@@ -456,30 +461,48 @@ namespace prjCookieClicker
                 advancement2Shown = true;
                 MessageBox.Show("U heeft al 10000 kinderen automatisch geproduceerd zonder ook maar een vinger uit te steken.", "Advancement: Lazy");
                 picAdvancement2.Image = Properties.Resources.lazy;
+                floatBoostProcent = floatBoostProcent + 2;
+                floatAantalKinderenPerSeconde = floatAantalKinderenPerSeconde + floatAantalKinderenPerSeconde * 0.02f;
             }
             if (advancement3Bereikt && !advancement3Shown)
             {
                 advancement3Shown = true;
                 MessageBox.Show("U heeft 10 keer geklikt in 1 seconde. Gebruik je een autoclicker?", "Advancement: Autoclicker");
+                floatAantalKinderenPerSeconde = floatAantalKinderenPerSeconde + floatAantalKinderenPerSeconde * 0.02f;
+                floatBoostProcent = floatBoostProcent + 2;
                 picAdvancement3.Image = Properties.Resources.CPS;
             }
             if (advancement4Bereikt && !advancement4Shown)
             {
                 advancement4Shown = true;
                 MessageBox.Show("Chirp chirp, ik ben het geheime achievement kuiken.", "Advancement: Geheime achievement");
+                floatAantalKinderenPerSeconde = floatAantalKinderenPerSeconde + floatAantalKinderenPerSeconde * 0.02f;
+                floatBoostProcent = floatBoostProcent + 2;
                 picAdvancement4.Image = Properties.Resources.secrept;
             }
             if (advancement5Bereikt && !advancement5Shown)
             {
                 advancement5Shown = true;
                 MessageBox.Show("U heeft uw eerste van vele upgrades gekocht. Bluvn goan!", "Advancement: Eerste upgrade");
+                floatAantalKinderenPerSeconde = floatAantalKinderenPerSeconde + floatAantalKinderenPerSeconde * 0.02f;
+                floatBoostProcent = floatBoostProcent + 2;
                 picAdvancement5.Image = Properties.Resources.upgrade;
             }
             if (advancement6Bereikt && !advancement6Shown)
             {
                 advancement6Shown = true;
                 MessageBox.Show("U heeft al 5 keer de duurste upgrade gekocht. Geen geld tekort blijkbaar.", "Advancement: Rijke stinkerd");
+                floatAantalKinderenPerSeconde = floatAantalKinderenPerSeconde + floatAantalKinderenPerSeconde * 0.02f;
+                floatBoostProcent = floatBoostProcent + 2;
                 picAdvancement6.Image = Properties.Resources.money_with_wings;
+            }
+            if (advancement7Bereikt && !advancement7Shown)
+            {
+                advancement7Shown = true;
+                MessageBox.Show("");
+                floatAantalKinderenPerSeconde = floatAantalKinderenPerSeconde + floatAantalKinderenPerSeconde * 0.02f;
+                floatBoostProcent = floatBoostProcent + 2;
+                picAdvancement7.Image = Properties.Resources.Megaphone;
             }
 
             //boerderij
@@ -575,6 +598,9 @@ namespace prjCookieClicker
         {
             //messegebox met uitleg weergeven
             MessageBox.Show("Klik op de cock om kinderen te produceren.\nKoop met kinderen upgrades om de kinderproductie te automatiseren.\n\nNaast een upgrade staat telkens de prijs. Wanneer de upgrade groen wordt kan je deze kopen. Je kan een upgrade kopen door op de foto of tekst te klikken. Een upgrade wordt duurder per keer dat je deze koopt.\n\nEr zijn in het spel 16 achievements. Haal jij ze allemaal?\n\nLinksonder zie je je stats.", "Help");
+
+            //advancement
+            advancement7Bereikt = true;
         }
 
         private void picKind_Click(object sender, EventArgs e)

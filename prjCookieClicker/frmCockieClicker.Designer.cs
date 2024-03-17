@@ -61,6 +61,7 @@
             this.grbStats = new System.Windows.Forms.GroupBox();
             this.lblMaxCPS = new System.Windows.Forms.Label();
             this.lblCPS = new System.Windows.Forms.Label();
+            this.lblTotaalGeproduceerd = new System.Windows.Forms.Label();
             this.lblTotaalAutomatischGeproduceerd = new System.Windows.Forms.Label();
             this.lblTotaalAantalKliks = new System.Windows.Forms.Label();
             this.grbAdvancements = new System.Windows.Forms.GroupBox();
@@ -110,7 +111,7 @@
             this.lblCopyright = new System.Windows.Forms.Label();
             this.picKind = new System.Windows.Forms.PictureBox();
             this.picCock = new System.Windows.Forms.PictureBox();
-            this.lblTotaalGeproduceerd = new System.Windows.Forms.Label();
+            this.lblAdvancementBoost = new System.Windows.Forms.Label();
             this.grbUpgrades.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picUpgrade6Hormonen)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picUpgrade5ElektrischKippenpoortje)).BeginInit();
@@ -455,6 +456,7 @@
             // 
             // grbStats
             // 
+            this.grbStats.Controls.Add(this.lblAdvancementBoost);
             this.grbStats.Controls.Add(this.lblMaxCPS);
             this.grbStats.Controls.Add(this.lblCPS);
             this.grbStats.Controls.Add(this.lblTotaalGeproduceerd);
@@ -484,6 +486,15 @@
             this.lblCPS.Size = new System.Drawing.Size(31, 13);
             this.lblCPS.TabIndex = 0;
             this.lblCPS.Text = "CPS:";
+            // 
+            // lblTotaalGeproduceerd
+            // 
+            this.lblTotaalGeproduceerd.AutoSize = true;
+            this.lblTotaalGeproduceerd.Location = new System.Drawing.Point(6, 42);
+            this.lblTotaalGeproduceerd.Name = "lblTotaalGeproduceerd";
+            this.lblTotaalGeproduceerd.Size = new System.Drawing.Size(109, 13);
+            this.lblTotaalGeproduceerd.TabIndex = 0;
+            this.lblTotaalGeproduceerd.Text = "Totaal geproduceerd:";
             // 
             // lblTotaalAutomatischGeproduceerd
             // 
@@ -1008,14 +1019,14 @@
             this.picCock.TabStop = false;
             this.picCock.MouseDown += new System.Windows.Forms.MouseEventHandler(this.picCock_MouseDown);
             // 
-            // lblTotaalGeproduceerd
+            // lblAdvancementBoost
             // 
-            this.lblTotaalGeproduceerd.AutoSize = true;
-            this.lblTotaalGeproduceerd.Location = new System.Drawing.Point(6, 42);
-            this.lblTotaalGeproduceerd.Name = "lblTotaalGeproduceerd";
-            this.lblTotaalGeproduceerd.Size = new System.Drawing.Size(109, 13);
-            this.lblTotaalGeproduceerd.TabIndex = 0;
-            this.lblTotaalGeproduceerd.Text = "Totaal geproduceerd:";
+            this.lblAdvancementBoost.AutoSize = true;
+            this.lblAdvancementBoost.Location = new System.Drawing.Point(6, 81);
+            this.lblAdvancementBoost.Name = "lblAdvancementBoost";
+            this.lblAdvancementBoost.Size = new System.Drawing.Size(105, 13);
+            this.lblAdvancementBoost.TabIndex = 0;
+            this.lblAdvancementBoost.Text = "Advancement boost:";
             // 
             // frmCockieClicker
             // 
@@ -1155,6 +1166,7 @@
         private System.Windows.Forms.Label lblUpgrade2KinderenPerSeconde;
         private System.Windows.Forms.Label lblUpgrade1KinderenPerSeconde;
         private System.Windows.Forms.Label lblTotaalGeproduceerd;
+        private System.Windows.Forms.Label lblAdvancementBoost;
     }
 }
 
