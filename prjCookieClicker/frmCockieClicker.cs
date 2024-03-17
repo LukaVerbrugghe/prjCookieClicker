@@ -24,22 +24,22 @@ namespace prjCookieClicker
         float floatMaxCPS = 0;
 
         //upgrades
-        float floatUpgrade1Prijs = 10;
+        float floatUpgrade1Prijs = 150;
         float floatUpgrade1ExtraKinderenPerSeconde = 1;
 
-        float floatUpgrade2Prijs = 10;
+        float floatUpgrade2Prijs = 500;
         float floatUpgrade2ExtraKinderenPerSeconde = 1.5f;
 
-        float floatUpgrade3Prijs = 2;
+        float floatUpgrade3Prijs = 2000;
         float floatUpgrade3ExtraKinderenPerSeconde = 3;
 
-        float floatUpgrade4Prijs = 1;
+        float floatUpgrade4Prijs = 10000;
         float floatUpgrade4ExtraKinderenPerSeconde = 10;
 
-        float floatUpgrade5Prijs = 2;
+        float floatUpgrade5Prijs = 25000;
         float floatUpgrade5ExtraKinderenPerSeconde = 20;
 
-        float floatUpgrade6Prijs = 1;
+        float floatUpgrade6Prijs = 100000;
         float floatUpgrade6ExtraKinderenPerSeconde = 100;
 
         //advancements
@@ -440,6 +440,7 @@ namespace prjCookieClicker
             //stats
             lblTotaalAantalKliks.Text = "Aantal keer geklikt: " + Convert.ToString(Math.Round(floatTotaalAantalKeerGeklikt, 1));
             lblTotaalAutomatischGeproduceerd.Text = "Automatisch geproduceerd: " + Convert.ToString(Math.Round(floatTotaalAutomatischGeproduceerd, 1));
+            lblTotaalGeproduceerd.Text = "Totaal geproduceerd: " + (Convert.ToString(Math.Round(floatTotaalAantalKeerGeklikt + floatTotaalAutomatischGeproduceerd, 1)));
             lblCPS.Text = "CPS: " + Convert.ToString(floatCPS) + " kliks per second";
             lblMaxCPS.Text = "Max CPS: " + Convert.ToString(Math.Round(floatMaxCPS, 1)) + " kliks per second";
 
@@ -537,9 +538,17 @@ namespace prjCookieClicker
         private void tmrAnimatie_Tick(object sender, EventArgs e)
         {
             //animatie
-            ///Summary
-            ///Nog afwerken
-            ///Hier komt de code voor de animatie
+            foreach (Control label in grbBoerderij.Controls)
+            {
+                if (label.ForeColor == Color.Red)
+                {
+                    label.ForeColor = Color.Black;
+                }
+                else if (label.ForeColor == Color.Black)
+                {
+                    label.ForeColor= Color.Red;
+                }
+            }
 
         }
 
